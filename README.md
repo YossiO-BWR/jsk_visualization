@@ -17,14 +17,14 @@ See [read the docs](http://jsk-visualization.readthedocs.org/en/latest/).
 
 [![](.readme/gallery_jsk_rqt_plugins.jpg)](http://jsk_visualization.readthedocs.io/en/latest/jsk_rqt_plugins)
 
-# 開発環境
+# Development environment
 - Ubuntu 20.04(ROS2 Foxy)
 - Ubuntu 20.04(ROS2 Galactic)
 
-# 実装状況
+# Implementation status
 ## jsk_rviz_plugins
 ### Display
-| プラグイン | 実装着手 | ビルド | 動作確認 | 備考 |
+| Plugin | Begin | Build | Op Check | Remarks |
 | :----- | :----- | :----- | :----- | :----- |
 | Plotter2D | ✅ | ✅ | ✅ |
 | PieChart | ✅ | ✅ | ✅ |
@@ -59,7 +59,7 @@ See [read the docs](http://jsk-visualization.readthedocs.org/en/latest/).
 | SimpleOccupancyGridArray  | | | | (#include "jsk_recognition_utils/geo/plane.h") |
 
 ### Panel
-| プラグイン | 実装着手 | ビルド | 動作確認 | 備考 |
+| Plugin | Begin | Build | Op Check | Remarks |
 | :----- | :----- | :----- | :----- |  :----- | 
 | ObjectFitOperatorAction | ✅ | ✅ | | |
 | RecordAction | ✅ | ✅ | | |
@@ -73,7 +73,7 @@ See [read the docs](http://jsk-visualization.readthedocs.org/en/latest/).
 | TransformableMarkerOperatorAction | | | | |
 
 ### Tool
-| プラグイン | 実装着手 | ビルド | 動作確認 | 備考 |
+| Plugin | Begin | Build | Op Check | Remarks |
 | :----- | :----- | :----- | :----- | :----- | 
 | CloseAll | ✅ | ✅ | ✅ | |
 | OpenAll | ✅ | ✅ | ✅ | |
@@ -81,12 +81,12 @@ See [read the docs](http://jsk-visualization.readthedocs.org/en/latest/).
 | OverlayPickerTool | ✅ | ✅ | ✅ | |
 
 ### ViewController
-| プラグイン | 実装着手 | ビルド | 動作確認 | 備考 |
+| Plugin | Begin | Build | Op Check | Remarks |
 | :----- | :----- | :----- | :----- | :----- |
 | TabletViewController | | | | |
 
 ## jsk_rqt_plugins
-| プラグイン | 実装着手 | ビルド | 動作確認 | 備考 |
+| Plugin | Begin | Build | Op Check | Remarks |
 | :----- | :----- | :----- | :----- | :----- |
 | rqt_2d_plot | | | | |
 | rqt_3d_plot | | | | |
