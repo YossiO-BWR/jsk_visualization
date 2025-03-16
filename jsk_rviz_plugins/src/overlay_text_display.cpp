@@ -228,11 +228,11 @@ void OverlayTextDisplay::update(float wall_dt, float ros_dt)
       shadow_color.setAlpha(fg_color_.alpha());
 
       std::string color_wrapped_text =
-        (rviz_string::format("<span style=\"color: rgba(%d, %d, %d, %d)\">%s</span>"),
+        rviz_string::format("<span style=\"color: rgba(%d, %d, %d, %d)\">%s</span>",
          fg_color_.red(), fg_color_.green(), fg_color_.blue(), fg_color_.alpha(), text_.c_str());
 
       std::string color_wrapped_shadow =
-        (rviz_string::format("<span style=\"color: rgba(%d, %d, %d, %d)\">%s</span>"),
+        rviz_string::format("<span style=\"color: rgba(%d, %d, %d, %d)\">%s</span>",
          shadow_color.red(), shadow_color.green(), shadow_color.blue(), shadow_color.alpha(),
          text_.c_str());
 
